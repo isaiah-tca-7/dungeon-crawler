@@ -36,6 +36,13 @@ def main():
             pass
 
         print(message("Which direction do you go?"))
+        print(state["coords"])
+        if. cmd.lower(). =="up":
+            (x, y). =. state["coords"]
+            next_square. =. (x, y-1)
+            next_square.append(state["coords"])
+        elif. cmd.lower(). =="down":
+            
         cmd = run_cmd(input("> "))
 
         # TODO: move the player based on their "cmd"
